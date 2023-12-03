@@ -27,7 +27,7 @@ mv file.txt hello.txt       # to rename a file
 rm hello.txt                # to remove a file
 rm -r docker                # to recursively remove a directory
 ```
-###Editing and viewing files
+### Editing and viewing files
 ```
 nano file.txt                      # to edit file.txt
 cat file.txt                       # to view file.txt 
@@ -37,33 +37,33 @@ head -n 5 file.txt                 # to view the first 5 lines
 tail file.txt                      # to view the last 10 lines
 tail -n 5 file.txt                 # to view the last 5 lines
 ```
-###Searching for text
+### Searching for text
 ```
 grep hello file.txt                  # to search for hello in file.txt
 grep -i hello file.txt               # case-insensitive search
 grep -i hello file*.txt              # to search in files with a pattern
 grep -i -r hello .                   # to search in the current directory
 ```
-###Finding files and directories
+### Finding files and directories
 ```
 find                                # to list all files and directories
 find -type d                        # to list directories only
 find -type f                        # to list files only
 find -name “f*”                     # to filter by name using a pattern
 ```
-###Managing environment variables
+### Managing environment variables
 ```
 printenv                            # to list all variables and their value
 printenv PATH                       # to view the value of PATH
 echo $PATH                          # to view the value of PATH
 export name=bob                     # to set a variable in the current session
 ```
-###Managing processes
+### Managing processes
 ```
 ps # to list the running processes
 kill 37 # to kill the process with ID 37
 ```
-###Managing users and groups
+### Managing users and groups
 ```
 useradd -m raju                   # to create a user with a home directory
 adduser raju                      # to add a user interactively
@@ -75,7 +75,7 @@ groupmod                          # to modify a group
 groupdel                          # to delete a group
 
 ```
-###File permissions
+### File permissions
 ```
 chmod u+x deploy.sh                    # give the owning user execute permission
 chmod g+x deploy.sh                    # give the owning group execute permission
