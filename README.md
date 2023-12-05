@@ -60,8 +60,8 @@ export name=bob                     # to set a variable in the current session
 ```
 ### Managing processes
 ```
-ps # to list the running processes
-kill 37 # to kill the process with ID 37
+ps                                  # to list the running processes
+kill 37                             # to kill the process with ID 37
 ```
 ### Managing users and groups
 ```
